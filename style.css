@@ -1,0 +1,26 @@
+body{
+    background-color: #000000;
+}
+h1{
+    color:#FF0000;
+    display: flex;
+    justify-content: center;
+    background-color: #FFD700;
+}
+h4{
+    color:#FFFFFF;
+}
+.title{
+    background-color: #FFD700;
+}
+.image{
+    border: solid #008000 ;
+    margin-left: 1150px;
+    font-size: 18px;
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
