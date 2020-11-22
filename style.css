@@ -5,22 +5,54 @@ h1{
     color:#FF0000;
     display: flex;
     justify-content: center;
-    background-color: #FFD700;
 }
 h4{
     color:#FFFFFF;
+    opacity: 0;
 }
-.title{
-    background-color: #FFD700;
+.img1{
+    display: flex;
+    justify-content: center;
+}
+.img2{
+    display: flex;
+    justify-content: center;
 }
 .image{
     border: solid #008000 ;
-    margin-left: 1150px;
-    font-size: 18px;
+    font-size: 20px;
+    margin-left: 500px;
+    margin-right: 500px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.gridItem{
+    border: solid;
+    border-color: green;
+    position: relative;
 }
 .grid{
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
     justify-content: space-evenly;
+    border: solid;
+    border-color: #FFFF00;
+}
+.gridItem h4{
+    position: absolute;
+    top: 45%;
+    left: 45%;
+}
+.gridItem:hover h4{
+    opacity: 1;
+}
+.gridItem:hover img{
+    opacity: 0.5;
+}
+a:link{
+    color: #FFD700;
+}
+a:visited{
+    color: #FFFFFF;
 }
